@@ -1,0 +1,143 @@
+.bodyimg {
+    height: 120%;
+    width: 130%;
+    display: flex;
+    position: fixed;
+}
+.navbar {
+    position: fixed;
+   
+}
+.navbar-nav {
+    font-weight: 700;
+}
+
+.left-sec {
+    color: black;
+    font-size: 2.5rem;
+    width: 40%;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.skillsimg {
+    display: flex;
+    height: 700PX;
+    width: 530px;
+    position: fixed;
+    margin-top: 4rem;
+}
+.left {
+    width: 50%;
+    margin-top: 5rem;
+    align-items: center;
+}
+.right {
+    width: 40%;
+}
+.progress {
+    margin-bottom: 1rem;
+}
+.main {
+    margin: 2rem 1rem 0 1.7rem;
+}
+.tab {
+    border: slategrey solid;
+    text-align: center;
+    font-size: 1.7rem;
+    justify-content: center;
+    
+}
+.nav {
+    text-decoration: none;
+}
+.project {
+    margin-top: 1rem;
+}
+ul {
+    font-size: 2rem;
+    margin-left: 2rem;
+    
+}
+li {
+    font-size: 1.5rem;
+    color: gray;
+}
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.img {
+    width: 70%;
+}
+.cvimg {
+    width: 70%;
+}
+.download {  
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-top: -20rem;
+    margin-left: 50rem;
+    text-align: center;
+    position: fixed; 
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+.address {
+    font-size: 2rem;
+    color: azure;
+    width: 40%;
+    margin-top: 10rem;
+
+}
+.address div {
+    margin-top: 0.8rem;
+}
+.message {
+    height: 20rem;
+    width: 30%;
+    background-color: azure;
+    margin-top: 8rem;
+    margin-left: -8rem;
+    align-items: center;
+    text-align: center;
+}
+
+.address img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.mes {
+    width: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media(max-width : 400px) {
+    
+    .navbar-nav {
+        position: relative;
+        height: 100%;
+        width: auto;
+        display: none;
+        font-weight: 500;
+
+    }
+    .navbar-nav a {
+        float: right;
+        margin-right: 0;
+    }
+}
