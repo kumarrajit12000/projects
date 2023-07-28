@@ -1,0 +1,288 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.sidebar {
+    background-color: black;
+    width: 350px;
+    border-radius: 0.5rem; /*16px*/
+    margin-right: 0.5rem;
+}
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem; /*16px*/
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.music {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    display: flex;
+} 
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav {
+    background-color: #121212;
+    border-radius: 0.5rem; /*16px*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option {
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    font-weight: 600;
+}
+.nav-option:hover {
+     opacity:1;
+  }
+.nav-option i {
+    font-size: 1.25rem;
+}
+.nav-option a {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.library {
+    background-color: #121212 ;
+    border-radius: 0.5rem; /*16px*/
+    margin-top: 0.5rem;
+    height: 100%;
+}
+.options {
+    display: flex;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-left: 0.8rem;
+    
+}
+.lib-option a {
+    margin-left: 1rem;
+}
+.icons i {
+    font-size: 1.25rem;
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icons i:hover {
+    opacity: 1;
+}
+
+.box {
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0.5rem 1.75rem 0.5rem;
+    padding: 0.75rem 1.2rem ;
+}
+.box1 {
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.box2 {
+    font-size: 0.80rem;
+    opacity: 0.9;
+    font-weight: 500;
+    
+}
+.badge{
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10;
+}
+.sticky-nav-icons{
+    margin-left: .75rem;
+}
+.dark-bag {
+    background-color: #000;
+    color: white;
+}
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    margin-left: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+}
+.card {
+    background-color: #232323;
+    width: 200px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title {
+    font-weight: 600;
+}
+.card-info {
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+.footer {
+    height: 200px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.line {
+    height: 50%;
+    width: 90%;
+    border-top: 1px solid white;
+    opacity: 0.5;
+}
+.album {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.album-img {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.song {
+    margin: 1rem 0 0.5rem 0;
+}
+.singer {
+    opacity: 0.5;
+    font-size: small;
+    margin-top: 5px;
+}
+.fa-regular fa-heart {
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 5rem;
+}
+.player {
+    width: 50%;
+}
+.player-controls {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.player-progress {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.controls {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cont-icons {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1.5rem;
+    opacity: 0.5;
+}
+.cont-icons:hover {
+    opacity: 1;
+}
+.player-icons {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1rem;
+    opacity: 0.5;
+}
+.player-icons:hover {
+    opacity: 1;
+}
+.progress {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.vol-icons {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+    opacity: 0.5;
+}
+.vol-icons:hover {
+    opacity: 1;
+}
+.volume-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    height: 0.2rem;
+    
+}
+.progress::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1bd760;
+    margin-top: -6px;
+}
