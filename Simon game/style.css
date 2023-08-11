@@ -1,0 +1,32 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.pink {
+    background-color:pink;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.orange {
+    background-color: orange;
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 10px solid black;
+    margin: 2rem 2rem 2rem 2rem;
+}
+.flesh {
+    background-color: white;
+}
