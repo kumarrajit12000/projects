@@ -1,0 +1,14 @@
+.cardshadow {
+    box-shadow: 2px  2px blur rgb(41, 34, 34);
+}
+
+.body {
+    /* width: 100%;
+   height: 100%; */
+    /* position:fixed; */
+    background-image: url("weather.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
