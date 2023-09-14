@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>USERS DATA</h1>
+    <h2>TOTAL USERS WE HAVE : <b><%= count %></b></h2>
+    <div class="button">
+    <form method="get" action="/register">
+        <button class="options">JOIN US NOW</button>
+    </form>
+    <br>
+    <form method="get" action="/search">
+        <button  class="options">SEARCH USER</button>
+    </form>
+    </div>
+
+    <h1>ALL USERS DATA</h1>
+    <% let no = 1 %>
+    <table>
+        <tr>
+            <td class="hd">COUNT</td>
+            <td class="hd">USER ID</td>
+            <td class="hd">USERNAME</td>
+            <td class="hd">USER EMAIL</td>
+            <td class="hd" colspan="2">EDIT/DELETE USER</td>
+        </tr>
+    <% for(let user of result[1]){ %>
+        <tr>
+            <td><h3><b>user no : </b><%= no %> </h3></td>
+            <td><%= user.id %></td>
+            <td><%= user.username %></td>
+            <td><%= user.email %></td>
+            <td><form method="get" action="/user/<%= user.id %>/edit">
+                <button  class="options">EDIT USERNAME</button>
+            </form>
+            </td>
+            <td><form method="get" action="/user/<%= user.id %>/delete">
+                <button class="options">DELETE USER</button>
+            </form>
+            </td>
+          
+        </tr>
+        <% no++ %>
+      <% } %>  
+    </table>
+</body>
+</html>
