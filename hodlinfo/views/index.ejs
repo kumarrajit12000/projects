@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HODLNFO</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="root">
+        <div class="header">
+            <div class="nav">
+                <div class="left"></div>
+                <div class="center">
+                    <div class="a"><select class="inr">
+                        <option>INR</option>
+                    </select></div>
+                    <div class="a"><select class="btc">
+                        <option value="BTC">BTC</option>
+                        <option>ETH</option>
+                        <option>USDT</option>
+                        <option>XRP</option>
+                        <option>TRX</option>
+                        <option>DASH</option>
+                        <option>ZEC</option>
+                        <option>XEM</option>
+                        <option>IOST</option>
+                        <option>WIN</option>
+                        <option>BTT</option>
+                        <option>WRX</option>
+
+                    </select></div>
+                    <div class="b"><button class="buybtc">BUY BTC</button></div>
+                  
+                </div>
+                <div class="right">
+                    <div class="pro">
+                        <div class="circle">60</div>
+                    </div>
+                    <div class="telegram">
+                        <img src="icons8-telegram-logo-50 (2).png" class="teleLOGO">
+                        <p>Connect Telegram</p>
+                    </div>
+                    <div class="toggle">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="min5">
+                    <div class="div1">₹ <%= result[0].last_trade %></div>
+                    <div class="div2">LAST TRADE</div>
+                </div>
+                <div class="hour1">
+                    <div class="div1">₹ <%= result[0].buy %></div>
+                    <div class="div2">BUY</div>
+                </div>
+                <div class="bestprice">
+                    <div class="bp">Best Price to Trade</div>
+                    <div class="price" id="live">₹ <%= result[0].live %></div>
+                    <div class="avg">Average BTC/INR net price including commission</div>
+                </div>
+                <div class="day1">
+                    <div class="div1">₹ <%= result[0].sell %></div>
+                    <div class="div2">SELL</div>
+                </div>
+                <div class="day7">
+                    <div class="div1"><%= result[0].volumn %></div>
+                    <div class="div2">VOLUME</div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">LIVE</th>
+                    <th scope="col">Last Trade Price</th>
+                    <th scope="col">Buy / Sell Price</th>
+                    <th scope="col">Volume</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="spaceUnder">
+                    <td class="radious">1</td>
+                    <td><%= result[0].coin_name %></td>
+                    <td>₹ <%= result[0].live %></td>
+                    <td>₹ <%= result[0].last_trade %></td>
+                    <td>₹ <%= result[0].buy %>/₹ <%= result[0].sell %></td>
+                    <td><%= result[0].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder radious">
+                    <td class="radious">2</td>
+                    <td><%= result[1].coin_name %></td>
+                    <td>₹ <%= result[1].live %></td>
+                    <td>₹ <%= result[1].last_trade %></td>
+                    <td>₹ <%= result[1].buy %>/₹ <%= result[1].sell %></td>
+                    <td><%= result[1].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder radious">
+                    <td class="radious">3</td>
+                    <td><%= result[2].coin_name %></td>
+                    <td>₹ <%= result[2].live %></td>
+                    <td>₹ <%= result[2].last_trade %></td>
+                    <td>₹ <%= result[2].buy %>/₹ <%= result[2].sell %></td>
+                    <td><%= result[2].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder">
+                    <td class="radious" >4</td>
+                    <td><%= result[3].coin_name %></td>
+                    <td>₹ <%= result[3].live %></td>
+                    <td>₹ <%= result[3].last_trade %></td>
+                    <td>₹ <%= result[3].buy %>/₹ <%= result[3].sell %></td>
+                    <td><%= result[3].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder">
+                    <td class="radious" >5</td>
+                    <td><%= result[4].coin_name %></td>
+                    <td>₹ <%= result[4].live %></td>
+                    <td>₹ <%= result[4].last_trade %></td>
+                    <td>₹ <%= result[4].buy %>/₹ <%= result[4].sell %></td>
+                    <td><%= result[4].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder">
+                    <td class="radious" >6</td>
+                    <td><%= result[5].coin_name %></td>
+                    <td>₹ <%= result[5].live %></td>
+                    <td>₹ <%= result[5].last_trade %></td>
+                    <td>₹ <%= result[5].buy %>/₹ <%= result[5].sell %></td>
+                    <td><%= result[5].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder">
+                    <td class="radious" >7</td>
+                    <td><%= result[6].coin_name %></td>
+                    <td>₹ <%= result[6].live %></td>
+                    <td>₹ <%= result[6].last_trade %></td>
+                    <td>₹ <%= result[6].buy %>/₹ <%= result[6].sell %></td>
+                    <td><%= result[6].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder">
+                    <td class="radious" >8</td>
+                    <td><%= result[7].coin_name %></td>
+                    <td>₹ <%= result[7].live %></td>
+                    <td>₹ <%= result[7].last_trade %></td>
+                    <td>₹ <%= result[7].buy %>/₹ <%= result[7].sell %></td>
+                    <td><%= result[7].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder">
+                    <td class="radious" >9</td>
+                    <td><%= result[8].coin_name %></td>
+                    <td>₹ <%= result[8].live %></td>
+                    <td>₹ <%= result[8].last_trade %></td>
+                    <td>₹ <%= result[8].buy %>/₹ <%= result[8].sell %></td>
+                    <td><%= result[8].volumn %></td>
+                  </tr>
+                  <tr class="spaceUnder">
+                    <td class="radious" >10</td>
+                    <td><%= result[9].coin_name %></td>
+                    <td>₹ <%= result[9].live %></td>
+                    <td>₹ <%= result[9].last_trade %></td>
+                    <td>₹ <%= result[9].buy %>/₹ <%= result[9].sell %></td>
+                    <td><%= result[9].volumn %></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <hr style="height: 1px; margin: 0px; background-color:#a4a6aa ;border: none; ">
+            <div class="copyright">Copyright © 2019  HodlInfo.com</div>
+            <div class="home">
+                <button class="btn">Add hodlInfo to home screen</button>
+            </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

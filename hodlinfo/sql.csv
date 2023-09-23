@@ -1,0 +1,10 @@
+[{"coin_name":"BTC/INR", "live":2282630.0, "buy":2285000.0, "sell":2289990.0, "last_trade":2285000.0, "volumn":2.28617, "base_unit":"btc"},
+ {"coin_name":"XRP/INR", "live":43.9823, "buy":43.7134, "sell":43.7528, "last_trade":43.7528, "volumn":86535.5, "base_unit":"xrp"},
+ {"coin_name":"ETH/INR", "live":139688.0, "buy":137001.0, "sell":138908.0, "last_trade":137001.0, "volumn":18.1653, "base_unit":"eth"},
+ {"coin_name":"TRX/INR", "live":7.1601, "buy":7.1534, "sell":7.2105, "last_trade":7.1564, "volumn":365107.0, "base_unit":"trx"},
+ {"coin_name":"EOS/INR", "live":56.52, "buy":56.3, "sell":57.44, "last_trade":57.34, "volumn":169.45, "base_unit":"eos"},
+ {"coin_name":"ZIL/INR", "live":1.63, "buy":1.63, "sell":1.65, "last_trade":1.63, "volumn":36366.0, "base_unit":"zil"},
+ {"coin_name":"BAT/INR", "live":14.766, "buy":15.0, "sell":15.454, "last_trade":15.414, "volumn":648.1, "base_unit":"bat"},
+ {"coin_name":"ZRX/INR", "live":16.4, "buy":15.64, "sell":16.26, "last_trade":15.71, "volumn":7573.82, "base_unit":"zrx"},
+ {"coin_name":"REQ/INR", "live":5.4304, "buy":5.4284, "sell":5.5731, "last_trade":5.4298, "volumn":1010.0, "base_unit":"req"},
+ {"coin_name":"NULS/INR", "live":108.0, "buy":0.0, "sell":0.0, "last_trade":108.0, "volumn":0.0, "base_unit":"nuls"}]
