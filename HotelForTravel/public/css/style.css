@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.container {
+    flex: 1;
+}
+.navbar {
+    height: 5rem;
+    border-bottom: 1px solid black;
+    position: fixed;
+    background-color: white;
+}
+.fa-hotel {
+    color: red;
+    margin: 0rem 1rem;
+    font-size: 3rem;
+}
+
+.f-info {
+    text-align: center;
+    border-top: 1px solid black;
+    height: 100px;
+    background-color: rgb(223, 215, 206);
+}
+
+.social i {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+.company-detail2 a {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.company-detail2 a:hover {
+    text-decoration: underline;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 265px;
+    margin: 1rem 0rem;
+}
+.card img {
+    height: 12rem;
+    width: 100%;
+    background-size: cover;
+}
+.card img:hover {
+   opacity: 0.2;
+   
+}
+.card-body {
+    height: 5rem;
+    border-left: none;
+}
+.cards a {
+    text-decoration: none;
+}
+.main {
+    display: flex;
+}
+.form {
+    /* width: 60%; */
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.btn {
+    background-color:red !important;
+    color: black!important;
+    border: 1px solid black !important;
+    font-weight: 500 !important;
+}
+.pl {
+    display: flex;
+}
+.location {
+    width: 80%;
+    margin-left: 10px;
+}
+.showdiv {
+    display: flex;
+}
+.showimg {
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.showdetails {
+    margin: 15px 0px 0px 50px;
+}

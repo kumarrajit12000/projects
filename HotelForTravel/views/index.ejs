@@ -1,0 +1,23 @@
+<% layout("/layouts/boilerplate.ejs") %>
+<body>
+    <br>
+    <h2>ALL HOTELINFO</h2>
+    <!-- <form method="GET" action="/hotelinfo/new">
+        <button>ADD NEW HOTELINFO</button>
+    </form> -->
+    
+    <div class="cards">
+        <% for(let info of allinfo){ %>
+          <a  href="/hotelinfo/<%= info._id %>/">
+            <div class="card">
+                <img src="<%= info.image %>" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p><b><%= info.title %></b><br>
+                     <b> &#8377; <%= info.price.toLocaleString("en-IN") %></b>
+                  </p>
+                </div>
+            </div>
+          </a>
+        <% } %>
+    </div>
+</body>
