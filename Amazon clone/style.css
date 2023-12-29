@@ -24,7 +24,7 @@
     border-radius: 2px;
 }
 .logo {
-    background-image: url("amzlogo.jpg");
+    background-image: url("./img/amzlogo.jpg");
     background-size:cover;
     height: 55px;
     border-radius: 2px;
@@ -111,7 +111,7 @@
     height: 55px;
 }
 .flag {
-    background-image: url("C:\Users\kumar\OneDrive\Desktop\AmazonCloan\views\india.png");
+    background-image: url("./img/india.png");
     width: 22px;
     height: 20px;
     background-size: cover;
@@ -234,7 +234,7 @@
 }
 
 .hero {
-    background-image: url("hero1.jpg");
+    background-image: url("./img/hero1.jpg");
     width: 100%;
     height: 200px;
     background-size:contain;
@@ -279,23 +279,23 @@ h2 {
 
          /* //card1 */
 .a1 {
-        background-image: url("1a.jpg");
+        background-image: url("./img/1a.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         
 }
 .b1 {
-    background-image: url("1b.jpg");
+    background-image: url("./img/1b.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .c1 {
-    background-image: url("1c.jpg");
+    background-image: url("./img/1c.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .d1 {
-    background-image: url("1d.jpg");
+    background-image: url("./img/1d.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -308,52 +308,52 @@ h2 {
 }
          /* //2 image */
 .a2 {
-    background-image: url("2a.jpg");
+    background-image: url("./img/2a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 .b2 {
-background-image: url("2b.jpg");
+background-image: url("./img/2b.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
 .c2 {
-background-image: url("2c.jpg");
+background-image: url("./img/2c.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
 .d2 {
-background-image: url("2d.jpg");
+background-image: url("./img/2d.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
           /* //3 image */
 .image2 {
-    background-image: url("3a.jpg");
+    background-image: url("./img/3a.jpg");
     background-size: cover;
     height: 260px;
     width: 280px;
 }
            /* //4 image */
 .a4 {
-    background-image: url("4a.jpg");
+    background-image: url("./img/4a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 .b4 {
-background-image: url("4b.jpg");
+background-image: url("./img/4b.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
 .c4 {
-background-image: url("4c.jpg");
+background-image: url("./img/4c.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
 .d4 {
-background-image: url("4d.jpg");
+background-image: url("./img/4d.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -362,23 +362,23 @@ background-repeat: no-repeat;
 
          /* //card2 */
          .a5 {
-            background-image: url("5a.jpg");
+            background-image: url("./img/5a.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             
     }
     .b5 {
-        background-image: url("5b.jpg");
+        background-image: url("./img/5b.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .c5 {
-        background-image: url("5c.jpg");
+        background-image: url("./img/5c.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .d5 {
-        background-image: url("5d.jpg");
+        background-image: url("./img/5d.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -391,69 +391,69 @@ background-repeat: no-repeat;
     }
              /* //2 image */
     .a6 {
-        background-image: url("6a.jpg");
+        background-image: url("./img/6a.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         
     }
 
     .b6 {
-    background-image: url("6b.jpg");
+    background-image: url("./img/6b.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     }
     .c6{
-    background-image: url("6c.jpg");
+    background-image: url("./img/6c.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     }
     .d6 {
-    background-image: url("6d.jpg");
+    background-image: url("./img/6d.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     }
               /* //3 image */
               .a7 {
-                background-image: url("7a.jpg");
+                background-image: url("./img/7a.jpg");
                 background-size: cover;
                 background-repeat: no-repeat;
                 
             }
         
             .b7 {
-            background-image: url("7b.jpg");
+            background-image: url("./img/7b.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             }
             .c7{
-            background-image: url("7c.jpg");
+            background-image: url("./img/7c.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             }
             .d7 {
-            background-image: url("7d.jpg");
+            background-image: url("./img/7d.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             }
                /* //4 image */
     .a8 {
-        background-image: url("8a.jpg");
+        background-image: url("./img/8a.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         
     }
     .b8 {
-    background-image: url("8b.jpg");
+    background-image: url("./img/8b.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     }
     .c8 {
-    background-image: url("8c.jpg");
+    background-image: url("./img/8c.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     }
     .d8 {
-    background-image: url("8d.jpg");
+    background-image: url("./img/8d.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     }
@@ -464,7 +464,7 @@ background-repeat: no-repeat;
         background-color: pink;
     }
     .hero2img {
-        background-image: url("hero2.jpg");
+        background-image: url("./img/hero2.jpg");
         height: 250px;
         width: 960px;
     }
