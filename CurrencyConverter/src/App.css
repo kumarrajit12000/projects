@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.main{
+  background-color: black;
+  height: 755px;
+  width: 100%;
+}
+
+.Navbar {
+  display: flex;
+  font-size: xxx-large;
+  background-color: aqua;
+  text-align: center;
+}
+
+.hero {
+  background-color: wheat;
+  height: 550px;
+  width: 500px;
+  border-radius: 30px;
+  margin: 70px auto;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputs {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: x-large;
+}
